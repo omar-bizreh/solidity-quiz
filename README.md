@@ -1,5 +1,7 @@
 # Quiz Contract
 
+![quiz contract workflow](https://github.com/omar-bizreh/solidity-quiz/actions/workflows/run-testes.yaml/badge.svg)
+
 Simple smart contract testing example
 
 ## About
