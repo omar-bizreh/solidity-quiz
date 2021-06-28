@@ -3,6 +3,7 @@ const Web3 = require('web3');
 const truffleAssert = require('truffle-assertions');
 const toHex = (input) => Web3.utils.asciiToHex(input).padEnd(66, '0');
 const toAscii = (input) => Web3.utils.toUtf8(input);
+let studentAddress = '0x9D9deb5678dcA9eA44Ad36789B2661af5bF641D0';
 let studentSigner;
 let ownerSigner;
 
@@ -10,6 +11,7 @@ let ownerSigner;
 describe('Quiz', function () {
   before(async function () {
     const accounts = await ethers.getSigners();
+    studentAddress = accounts[0].address;
     studentSigner = accounts[0];
     ownerSigner = accounts[1];
     this.QuizSystem = await ethers.getContractFactory(
