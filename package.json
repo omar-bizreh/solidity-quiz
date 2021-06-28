@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "npx hardhat --network localhost test"
+    "test-genache": "npx hardhat --network localhost test",
+    "test": "npx hardhat test"
   },
   "author": "",
   "license": "ISC",

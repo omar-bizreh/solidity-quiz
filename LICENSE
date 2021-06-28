@@ -1,30 +1,3 @@
-# Quiz Contract
-
-Simple smart contract testing example
-
-## About
-
-Simple contract for allowing students submit their answers for a quiz handed by teachers and rewarding when all answers are correct
-
-## Dependencies
-
-- [Solidity 0.8.6](https://docs.soliditylang.org/en/v0.8.6/)
-- [hardhat](https://hardhat.org/getting-started/)
-- [chai](https://www.chaijs.com/)
-- [Genache](https://www.trufflesuite.com/ganache)
-- [Nodejs](https://www.nodejs.org)
-
-## Running tests
-
-After cloning this project, in project root run:
-
-- `npm install`
-- `npm test`: Runs test using Hardhad local node
-- `npm test-genache`: Runs test which connect to local genache instance
-
-## License
-
-```text
 MIT License
 
 Copyright (c) 2021 sudo-dev-oss
@@ -46,4 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
